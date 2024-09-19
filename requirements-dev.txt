@@ -8,5 +8,9 @@ trustme
 wheel
 
 # Flask Stack
-Flask>1.0,<2.0
+Flask>2.2.5
 markupsafe<2.1
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
